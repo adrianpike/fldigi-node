@@ -1,0 +1,24 @@
+{
+  "name": "fldigi-node",
+  "version": "0.0.1",
+  "description": "node.js wrapper for fldigi's XML-RPC interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "fldigi",
+    "ham",
+    "psk"
+  ],
+  "author": "Adrian Pike <adrian@adrianpike.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^7.1.2"
+  },
+  "dependencies": {
+    "xmlrpc": "^1.3.2"
+  }
+}
