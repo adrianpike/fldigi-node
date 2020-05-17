@@ -23,3 +23,9 @@ client.receive = function(content) {
   console.log('Well, we did our part.');
 }
 ```
+
+Known Issues / TODO
+---
+
+- The "transmission completion" detection is wildly buggy in various modes.
+- I need an easy way to send a preamble to key VOX.

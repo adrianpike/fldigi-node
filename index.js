@@ -30,7 +30,9 @@ class FLDigi {
   }
 
   stopReceiveInterval() {
-    stopInterval(this.receiveInterval);
+    if (typeof(this.receiveInterval) !== 'undefined') {
+      clearInterval(this.receiveInterval);
+    }
   }
 
   async xmlRpcPromise(method, args = []) {
